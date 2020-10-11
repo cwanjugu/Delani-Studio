@@ -1,0 +1,164 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+#images1{
+    display: flex;
+    justify-content: space-between;
+    border-left:5%;
+}
+
+
+.contactUs{
+    background-image:url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top:2%;
+}
+#socialMedia{
+    margin-top: 2%;
+}
+#socialMedia img{
+    width: 31px;
+}
+
+#contact{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding-top:1em;
+}
+
+
+#home{
+    background-image:url("../images/backgrounds/h_img.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+
+.homeText{
+    text-align: center;
+    padding-top: 19%;
+
+
+
+}
+#delani,#welcome{
+    padding-top:1%;
+    font-size:40px;
+    font-weight: 700;
+}
+
+
+.amazing{
+    font-size:10px;
+}
+
+
+.mouseClick{
+    padding-top:20px;
+} 
+
+
+   #aboutUs,.services,#whatWeDo,#port,#content{
+     padding-top:2%;
+     text-align: center;
+  } 
+
+
+ h3{
+     font-weight: 790;
+ }
+
+ #designContent,#developmentContent,#managementContent{
+     display: none;
+ }
+
+
+ .services{
+    background-image:url("../images/backgrounds/s_image.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: white;
+    padding-top:5%;
+ }
+
+
+ #h5{
+     font-weight: 600;
+ }
+
+
+ #name,#email,#contactUs{
+    background-color: transparent;  
+     color: white;
+ }
+
+
+ .form-control::placeholder{
+     color: white;
+     opacity: 1;
+ }
+
+
+
+ .project{
+     display: none;
+     width: 80%;
+     height: 80%;
+     opacity: 2.5;
+     z-index: 1;
+     position: absolute;
+     top: 0;
+     text-align: center;
+     font-size:30px;
+     border-color: white;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-right:50px;
+     margin-left:10px;
+     font-weight:700px;
+     border: 5px solid white;
+     color: white;
+ }
+ 
+
+
+ .box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* background-color: #F44336; */
+
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 20px;
+}
+.bounce-5 {
+    animation-name: bounce-5;
+    animation-timing-function: ease;
+}
+@keyframes bounce-5 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
+.joker{
+    margin-top: 15%;
+}
