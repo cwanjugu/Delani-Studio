@@ -20,17 +20,15 @@ $(".design").click(function (){
 $("#designingImg").toggle();
 $("#designContent").toggle(4000);
 });
-
-$(".development").click(function (){
+  $(".development").click(function (){
   $("#progressImg").toggle();
   $("#progressContent").toggle(4000);
   });
 
-   $(".productManagement").click(function (){
+    $(".productManagement").click(function (){
     $("#managementImg").toggle();
     $("#managementContent").toggle(4000);
     });
-
 
 $("#img1").mouseover(function () {
   $("#proj1").show();
