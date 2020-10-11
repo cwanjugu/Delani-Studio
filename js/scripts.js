@@ -36,10 +36,6 @@ $("#img1").mouseover(function () {
   $("#proj1").hide();
 });
 
-
-
-
-
 $("#img2").mouseover(function () {
   $("#proj2").show();
 }).mouseout(function () {
